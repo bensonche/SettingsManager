@@ -10,7 +10,7 @@ namespace bche.SettingsManager
     {
         public string SettingsFileName = "settings.xml";
 
-        public Dictionary<string, string> Settings = new Dictionary<string, string>();
+        private Dictionary<string, string> Settings = new Dictionary<string, string>();
 
         public void LoadSettings()
         {
